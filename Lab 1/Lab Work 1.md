@@ -2,6 +2,7 @@
 #### Task 1.1
 
 Relation A: Employee
+
 Employee(EmpID, SSN, Email, Phone, Name, Department, Salary) 
 
 1. list at least 6 different superkeys
@@ -30,6 +31,7 @@ It seems that phone number of each employee ends with their EmpID, so it should 
 
 
 Relation B: Course Registration
+
 Registration(StudentID, CourseCode, Section, Semester, Year, Grade, Credits)
 
 1. Determine the minimum attributes needed for the primary key
@@ -48,5 +50,6 @@ Semester is needed because of rule 1 which states that a student can take the sa
 Year is needed to distinguish between same semesters (fall, spring) across years (fall 2026 and fall 2027 are different because of the year)
 
 3. Identify any additional candidate keys (if they exist)
+
 There are no additional candidate keys because remaining attributes Grade and Credits do not hold any additional information that helps in identifying unique rows
 
