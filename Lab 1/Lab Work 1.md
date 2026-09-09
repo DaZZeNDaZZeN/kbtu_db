@@ -4,6 +4,7 @@
 Employee(EmpID, SSN, Email, Phone, Name, Department, Salary) 
 
 1. list at least 6 different superkeys
+
 A. EmpID, SSN
 B. SSN
 C. EmpID, Email
@@ -12,6 +13,7 @@ E. Department, Salary, EmpID
 F. EmpID
 
 2. Identify all candidate keys
+
 A. EmpID
 B. SSN
 C. Email
