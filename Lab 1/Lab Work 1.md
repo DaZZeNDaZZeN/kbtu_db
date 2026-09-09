@@ -39,6 +39,7 @@ Registration(StudentID, CourseCode, Section, Semester, Year, Grade, Credits)
 5 attributes, StudentID, CourseCode, Section, Semester, Year.
 
 2. Explain why each attribute in your primary key is necessary
+
 StudentID is needed to distinguish which student registered for which things, because there may be 2 students that picked the same thing
 
 CourseCode is needed because a student can enroll in multiple distinct courses within the same semester and year.
