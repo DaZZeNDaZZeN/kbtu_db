@@ -1,6 +1,7 @@
 ### Part 1 
 #### Task 1.1
 
+Relation A: Employee
 Employee(EmpID, SSN, Email, Phone, Name, Department, Salary) 
 
 1. list at least 6 different superkeys
@@ -20,14 +21,19 @@ C. Email
 D. Phone
 
 3. Which candidate key would you choose as primary key and why?
+
 I would choose EmpID because it is short and easy to remember and it cannot be null and it is unique.
 
 4. Can two employees have the same phone number? Justify your answer based on the data shown.
+
 It seems that phone number of each employee ends with their EmpID, so it should be unique.
 
+
+Relation B: Course Registration
 Registration(StudentID, CourseCode, Section, Semester, Year, Grade, Credits)
 
 1. Determine the minimum attributes needed for the primary key
+
 5 attributes, StudentID, CourseCode, Section, Semester, Year.
 
 2. Explain why each attribute in your primary key is necessary
